@@ -4,23 +4,25 @@
 <meta charset="UTF-8">
 <title>For Diamond 💎</title>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
 
 <header>
+    <!-- LEFT: CARD -->
+    <div class="diamond-card">
+        💎 For Diamond
+    </div>
+
+    <!-- RIGHT: NAV -->
     <div class="nav-left">
         <button onclick="showPage('home')">🏠 Home</button>
         <button onclick="showPage('about')">ℹ️ About</button>
     </div>
-
-    <div class="diamond-card">
-        💎 For Diamond
-    </div>
 </header>
 
-<!-- HOME PAGE -->
+<!-- HOME -->
 <div id="home" class="container">
     <h1>Support Diamond 💖</h1>
     <p>Enter any amount you'd like to donate</p>
@@ -34,7 +36,16 @@
     <p id="message"></p>
 </div>
 
-<!-- ABOUT PAGE -->
+<!-- ABOUT -->
+<div id="about" class="container hidden">
+    <h1>About 💎</h1>
+    <p>This is a simple donation page created for Diamond.</p>
+    <p>Built with HTML, CSS, and JavaScript 🚀</p>
+</div>
+
+<script src="scripts/script.js"></script>
+</body>
+</html><!-- ABOUT PAGE -->
 <div id="about" class="container hidden">
     <h1>About 💎</h1>
     <p>This is a simple donation page created for Diamond.</p>
